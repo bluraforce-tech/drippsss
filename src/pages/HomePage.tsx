@@ -21,7 +21,7 @@ export default function HomePage() {
             <div className="space-y-8 animate-fade-up">
               <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 text-primary">
                 <Sparkles className="h-4 w-4" />
-                <span className="text-sm font-medium">New Collection 2024</span>
+                <span className="text-sm font-medium">New Collection 2026</span>
               </div>
               
               <h1 className="font-display text-5xl lg:text-7xl font-bold tracking-tight">
@@ -41,9 +41,9 @@ export default function HomePage() {
                     <ArrowRight className="ml-2 h-5 w-5" />
                   </Button>
                 </Link>
-                <Link to="/shop?category=leggings">
+                <Link to="/shop?category=products">
                   <Button variant="heroOutline" size="xl">
-                    View Leggings
+                    View products
                   </Button>
                 </Link>
               </div>
@@ -101,7 +101,7 @@ export default function HomePage() {
               </div>
               <div>
                 <h3 className="font-display font-semibold">Fast Shipping</h3>
-                <p className="text-sm text-muted-foreground">On orders over 3,000 L.E.</p>
+                <p className="text-sm text-muted-foreground">On orders over 1,500 L.E.</p>
               </div>
             </div>
             <div className="flex items-center gap-4">
